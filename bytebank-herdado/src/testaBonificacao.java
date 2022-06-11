@@ -9,3 +9,4 @@ public class testaBonificacao {
 		System.out.println(c.getSoma());
 	}
 }
+

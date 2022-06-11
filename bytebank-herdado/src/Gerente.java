@@ -1,4 +1,4 @@
-public class Gerente  extends Funcionario{
+public class Gerente  extends Funcionario implements Autenticavel{
 	private int senha;
 	
 	
@@ -6,9 +6,6 @@ public class Gerente  extends Funcionario{
 		return this.senha == senha;
 	}
 	
-	public int getSenha() {
-		return senha;
-	}
 	public void setSenha(int senha) {
 		this.senha = senha;
 	}
